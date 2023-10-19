@@ -101,4 +101,20 @@ p {
 .subsection-content:last-of-type {
     font-size: 18px;
 }
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
 
+    .fa-solid, .fa-regular, .fa-brands {
+        font-size: 16px;
+    }
+
+    h1 {
+        font-size: 28px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+}
